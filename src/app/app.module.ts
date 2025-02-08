@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { StudentComponent } from './student/student.component';
 import { AjoutComponent } from './ajout/ajout.component';
 import { AffichageComponent } from './affichage/affichage.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent,
     AjoutComponent,
-    AffichageComponent
+    AffichageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
