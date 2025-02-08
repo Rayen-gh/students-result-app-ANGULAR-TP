@@ -1,0 +1,16 @@
+<div>
+    <table style="width: 100%; margin-top: 60px;" >
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Result</th>
+          </tr>
+          <tr *ngFor="let item of sharingTable.students" [ngClass]="{succeed:item.result === 'succeed', failed:item.result ==='failed'}">
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.class}}</td>
+            <td>{{item.result}}</td>
+          </tr>
+    </table>
+</div>

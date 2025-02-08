@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { StudentComponent } from './student/student.component';
+import { AjoutComponent } from './ajout/ajout.component';
+import { AffichageComponent } from './affichage/affichage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    AjoutComponent,
+    AffichageComponent
   ],
   imports: [
     BrowserModule,

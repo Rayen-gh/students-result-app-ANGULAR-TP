@@ -1,0 +1,8 @@
+<h1 style="text-align: center;">STUDENTS RESULT</h1>
+<div style="display: flex; justify-content: space-evenly;margin-top: 50px; ">
+    <input [(ngModel)]="student.name" placeholder="Student's Name" type="text">
+    <input  [(ngModel)]="student.age"  placeholder="Student's Age" type="number">
+    <input  [(ngModel)]="student.class"  placeholder="Student's Class" type="text">
+    <input  [(ngModel)]="student.result"  placeholder="Student's Result" type="text">
+   <input type="button" value="ADD STUDENT" (click)="ajout()">
+</div>
