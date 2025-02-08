@@ -1,0 +1,9 @@
+table , th , td{
+   border: 1px solid black;
+}
+.succeed{
+   background-color: rgba(4, 253, 4, 0.281);
+}
+.failed{
+   background-color: rgba(255, 0, 0, 0.321);
+}
